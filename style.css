@@ -149,4 +149,13 @@ body {
   .choice {
     font-size: 80px;
   }
+  
+.choices {
+  display: grid;
+  grid-template-columns:400px;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
 }
